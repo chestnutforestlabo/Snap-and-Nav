@@ -1,0 +1,10 @@
+*.json
+*.png
+*.jpg
+*.JPG
+*.jpeg
+.DS_Store
+__pycache__
+myenv
+!datasource/floor.png
+!outputs/.gitkeep

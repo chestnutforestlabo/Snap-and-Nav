@@ -1,0 +1,54 @@
+getpath_parameters:
+  lower_red: [30, 30, 85]
+  upper_red: [50, 50, 120]
+  binary_lower_threshold: 230
+  binary_upper_threshold: 255
+  kernel_size: 5
+  CC_connectivity: 4
+  dilated_iteration: 4
+
+extract_corridor_parameters:
+  canny_lower: 50
+  canny_upper: 150
+  kernel_size: 5
+  canny_2_lower: 100
+  canny_2_upper: 200
+  dilation_iteration: 1
+  erosion_iteration: 1
+  area_threshold: 1000
+  addWeighted_alpha: 0.5
+  binary_threshold: 0.5
+  area_threshold_2: 100
+  measure_connectivity: 2
+
+skeletonize_parameters:
+  scaler: 9
+  kernel1_size: 3
+  kernel2_size: 4
+  dilate_iteration: 4
+  erode_iteration: 4
+
+extract_corner_parameters:
+  block_size: 3  
+  ksize: 3  
+  k: 0.05
+
+extract_connection_parameters:
+  threshold_value: 128
+  theta: 0
+  threshold_node_theta: 140
+  min_node_distance: 10
+
+extract_pois_parameters:
+  cnt: -1
+  width: 640
+  height: 480
+
+delete_node_parameters:
+  min_distance: 6
+
+poi_merge_parameters:
+  poi_threshold: 40
+
+find_endpoint_parameters:
+  max_explore_distance: 1000
