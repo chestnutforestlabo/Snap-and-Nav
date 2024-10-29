@@ -36,9 +36,6 @@ python3 main.py --img path_to_your_image.png
 - The program processes the input image and saves the result in JSON format inside the `outputs/json` folder.
 
 
-## License
-NEED TO WRITE
-
 ## ToDos
 - [ ] Map Analysis module code release
 - [ ] Navigation module code release
