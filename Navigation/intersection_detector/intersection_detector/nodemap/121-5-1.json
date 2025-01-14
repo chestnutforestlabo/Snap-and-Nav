@@ -1,0 +1,646 @@
+{
+    "nodes": [
+        {
+            "id": "node1",
+            "x": 634,
+            "y": 527,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "520-C"
+                }
+            ]
+        },
+        {
+            "id": "node2",
+            "x": 807,
+            "y": 927,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node14"
+                },
+                {
+                    "endNode": "520-C"
+                },
+                {
+                    "endNode": "520"
+                }
+            ]
+        },
+        {
+            "id": "node3",
+            "x": 1252,
+            "y": 2348,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "518"
+                },
+                {
+                    "endNode": "517"
+                },
+                {
+                    "endNode": "516-B"
+                }
+            ]
+        },
+        {
+            "id": "node4",
+            "x": 777,
+            "y": 2339,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "517"
+                }
+            ]
+        },
+        {
+            "id": "node5",
+            "x": 2121,
+            "y": 2364,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node17"
+                },
+                {
+                    "endNode": "515"
+                },
+                {
+                    "endNode": "514"
+                }
+            ]
+        },
+        {
+            "id": "node6",
+            "x": 2873,
+            "y": 2390,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node12"
+                },
+                {
+                    "endNode": "513"
+                },
+                {
+                    "endNode": "512"
+                }
+            ]
+        },
+        {
+            "id": "node7",
+            "x": 3298,
+            "y": 2394,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "512"
+                },
+                {
+                    "endNode": "511"
+                },
+                {
+                    "endNode": "510"
+                }
+            ]
+        },
+        {
+            "id": "node8",
+            "x": 3267,
+            "y": 2888,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "511"
+                }
+            ]
+        },
+        {
+            "id": "node9",
+            "x": 3353,
+            "y": 1675,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node10"
+                },
+                {
+                    "endNode": "509"
+                }
+            ]
+        },
+        {
+            "id": "node10",
+            "x": 2920,
+            "y": 1647,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node9"
+                },
+                {
+                    "endNode": "node11"
+                },
+                {
+                    "endNode": "508 and 507"
+                }
+            ]
+        },
+        {
+            "id": "node11",
+            "x": 2945,
+            "y": 1824,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node10"
+                },
+                {
+                    "endNode": "node12"
+                }
+            ]
+        },
+        {
+            "id": "node12",
+            "x": 2800,
+            "y": 1855,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node11"
+                },
+                {
+                    "endNode": "node6"
+                },
+                {
+                    "endNode": "initial_node"
+                }
+            ]
+        },
+        {
+            "id": "node13",
+            "x": 1565,
+            "y": 2021,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node17"
+                },
+                {
+                    "endNode": "501"
+                }
+            ]
+        },
+        {
+            "id": "node14",
+            "x": 1333,
+            "y": 805,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node2"
+                },
+                {
+                    "endNode": "504-A"
+                },
+                {
+                    "endNode": "503"
+                }
+            ]
+        },
+        {
+            "id": "node15",
+            "x": 1274,
+            "y": 277,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node16"
+                },
+                {
+                    "endNode": "504-B"
+                }
+            ]
+        },
+        {
+            "id": "node16",
+            "x": 2707,
+            "y": 94,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node15"
+                },
+                {
+                    "endNode": "505"
+                }
+            ]
+        },
+        {
+            "id": "node17",
+            "x": 2191,
+            "y": 1953,
+            "nodeClass": "intersection",
+            "outgoingLinks": [
+                {
+                    "endNode": "node5"
+                },
+                {
+                    "endNode": "node13"
+                },
+                {
+                    "endNode": "initial_node"
+                }
+            ]
+        },
+        {
+            "id": "520-C",
+            "x": 737.5491473129432,
+            "y": 766.4199937871521,
+            "nodeClass": "poi",
+            "originalX": 468,
+            "originalY": 883,
+            "outgoingLinks": [
+                {
+                    "endNode": "node1"
+                },
+                {
+                    "endNode": "node2"
+                }
+            ]
+        },
+        {
+            "id": "520",
+            "x": 864.0103654681035,
+            "y": 1109.0488299554497,
+            "nodeClass": "poi",
+            "originalX": 564,
+            "originalY": 1203,
+            "outgoingLinks": [
+                {
+                    "endNode": "node2"
+                },
+                {
+                    "endNode": "519"
+                }
+            ]
+        },
+        {
+            "id": "519",
+            "x": 985.5289586364468,
+            "y": 1497.0891016233504,
+            "nodeClass": "poi",
+            "originalX": 708,
+            "originalY": 1584,
+            "outgoingLinks": [
+                {
+                    "endNode": "520"
+                },
+                {
+                    "endNode": "518"
+                }
+            ]
+        },
+        {
+            "id": "518",
+            "x": 1103.9074369065327,
+            "y": 1875.102174930748,
+            "nodeClass": "poi",
+            "originalX": 836,
+            "originalY": 1959,
+            "outgoingLinks": [
+                {
+                    "endNode": "519"
+                },
+                {
+                    "endNode": "node3"
+                }
+            ]
+        },
+        {
+            "id": "517",
+            "x": 944.6766457249696,
+            "y": 2342.1770311821574,
+            "nodeClass": "poi",
+            "originalX": 940,
+            "originalY": 2589,
+            "outgoingLinks": [
+                {
+                    "endNode": "node3"
+                },
+                {
+                    "endNode": "node4"
+                }
+            ]
+        },
+        {
+            "id": "516-B",
+            "x": 1291.6447882427851,
+            "y": 2348.729938563734,
+            "nodeClass": "poi",
+            "originalX": 1287,
+            "originalY": 2601,
+            "outgoingLinks": [
+                {
+                    "endNode": "node3"
+                },
+                {
+                    "endNode": "516-A"
+                }
+            ]
+        },
+        {
+            "id": "516-A",
+            "x": 1482.782524089344,
+            "y": 2352.2491603975022,
+            "nodeClass": "poi",
+            "originalX": 1478,
+            "originalY": 2612,
+            "outgoingLinks": [
+                {
+                    "endNode": "516-B"
+                },
+                {
+                    "endNode": "515"
+                }
+            ]
+        },
+        {
+            "id": "515",
+            "x": 1753.7459032560823,
+            "y": 2357.2381294040247,
+            "nodeClass": "poi",
+            "originalX": 1749,
+            "originalY": 2615,
+            "outgoingLinks": [
+                {
+                    "endNode": "node5"
+                },
+                {
+                    "endNode": "516-A"
+                }
+            ]
+        },
+        {
+            "id": "514",
+            "x": 2269.157999222862,
+            "y": 2369.122484015684,
+            "nodeClass": "poi",
+            "originalX": 2260,
+            "originalY": 2634,
+            "outgoingLinks": [
+                {
+                    "endNode": "node5"
+                },
+                {
+                    "endNode": "513"
+                }
+            ]
+        },
+        {
+            "id": "513",
+            "x": 2642.9186548447487,
+            "y": 2382.0450598749517,
+            "nodeClass": "poi",
+            "originalX": 2634,
+            "originalY": 2640,
+            "outgoingLinks": [
+                {
+                    "endNode": "node6"
+                },
+                {
+                    "endNode": "514"
+                }
+            ]
+        },
+        {
+            "id": "512",
+            "x": 2942.4314967255496,
+            "y": 2390.6534729103582,
+            "nodeClass": "poi",
+            "originalX": 2940,
+            "originalY": 2649,
+            "outgoingLinks": [
+                {
+                    "endNode": "node6"
+                },
+                {
+                    "endNode": "node7"
+                }
+            ]
+        },
+        {
+            "id": "511",
+            "x": 3282.658481532427,
+            "y": 2638.4745200961643,
+            "nodeClass": "poi",
+            "originalX": 3546,
+            "originalY": 2655,
+            "outgoingLinks": [
+                {
+                    "endNode": "node7"
+                },
+                {
+                    "endNode": "node8"
+                }
+            ]
+        },
+        {
+            "id": "510",
+            "x": 3309.3637290234738,
+            "y": 2245.4450696749527,
+            "nodeClass": "poi",
+            "originalX": 3565,
+            "originalY": 2265,
+            "outgoingLinks": [
+                {
+                    "endNode": "node7"
+                },
+                {
+                    "endNode": "509"
+                }
+            ]
+        },
+        {
+            "id": "509",
+            "x": 3338.191274380464,
+            "y": 1868.5904312808423,
+            "nodeClass": "poi",
+            "originalX": 3605,
+            "originalY": 1889,
+            "outgoingLinks": [
+                {
+                    "endNode": "node9"
+                },
+                {
+                    "endNode": "510"
+                }
+            ]
+        },
+        {
+            "id": "508 and 507",
+            "x": 2884.942497043356,
+            "y": 1391.3929479264425,
+            "nodeClass": "poi",
+            "originalX": 2567,
+            "originalY": 1435,
+            "outgoingLinks": [
+                {
+                    "endNode": "node10"
+                },
+                {
+                    "endNode": "506-B"
+                }
+            ]
+        },
+        {
+            "id": "506-B",
+            "x": 2808.4496564758433,
+            "y": 833.6775422863138,
+            "nodeClass": "poi",
+            "originalX": 2478,
+            "originalY": 879,
+            "outgoingLinks": [
+                {
+                    "endNode": "508 and 507"
+                },
+                {
+                    "endNode": "506-A"
+                }
+            ]
+        },
+        {
+            "id": "506-A",
+            "x": 2781.2275931983763,
+            "y": 635.1993062773638,
+            "nodeClass": "poi",
+            "originalX": 2440,
+            "originalY": 682,
+            "outgoingLinks": [
+                {
+                    "endNode": "506-B"
+                },
+                {
+                    "endNode": "505"
+                }
+            ]
+        },
+        {
+            "id": "505",
+            "x": 2745.276196514864,
+            "y": 373.074803697575,
+            "nodeClass": "poi",
+            "originalX": 2600,
+            "originalY": 393,
+            "outgoingLinks": [
+                {
+                    "endNode": "node16"
+                },
+                {
+                    "endNode": "506-A"
+                }
+            ]
+        },
+        {
+            "id": "504-B",
+            "x": 1294.7572812782314,
+            "y": 462.76007652383396,
+            "nodeClass": "poi",
+            "originalX": 1400,
+            "originalY": 451,
+            "outgoingLinks": [
+                {
+                    "endNode": "node15"
+                },
+                {
+                    "endNode": "504-A"
+                }
+            ]
+        },
+        {
+            "id": "504-A",
+            "x": 1314.345703505571,
+            "y": 638.0598551007033,
+            "nodeClass": "poi",
+            "originalX": 1646,
+            "originalY": 601,
+            "outgoingLinks": [
+                {
+                    "endNode": "node14"
+                },
+                {
+                    "endNode": "504-B"
+                }
+            ]
+        },
+        {
+            "id": "503",
+            "x": 1363.045186886615,
+            "y": 962.4782209229484,
+            "nodeClass": "poi",
+            "originalX": 1701,
+            "originalY": 898,
+            "outgoingLinks": [
+                {
+                    "endNode": "node14"
+                },
+                {
+                    "endNode": "502"
+                }
+            ]
+        },
+        {
+            "id": "502",
+            "x": 1437.8493213614533,
+            "y": 1354.5550636876176,
+            "nodeClass": "poi",
+            "originalX": 1750,
+            "originalY": 1295,
+            "outgoingLinks": [
+                {
+                    "endNode": "503"
+                },
+                {
+                    "endNode": "501"
+                }
+            ]
+        },
+        {
+            "id": "501",
+            "x": 1509.6535393610357,
+            "y": 1730.9082063061182,
+            "nodeClass": "poi",
+            "originalX": 1614,
+            "originalY": 1711,
+            "outgoingLinks": [
+                {
+                    "endNode": "node13"
+                },
+                {
+                    "endNode": "502"
+                }
+            ]
+        },
+        {
+            "id": "initial_node",
+            "x": 2671.3206696716034,
+            "y": 1875.707018673535,
+            "nodeClass": "initial",
+            "directionX": 0.0,
+            "directionY": 0.0,
+            "originalX": 2663,
+            "originalY": 1824,
+            "outgoingLinks": [
+                {
+                    "endNode": "node12"
+                },
+                {
+                    "endNode": "node17"
+                }
+            ]
+        }
+    ]
+}

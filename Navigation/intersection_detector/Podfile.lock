@@ -1,0 +1,16 @@
+PODS:
+  - OpenAIKit (1.5.0)
+
+DEPENDENCIES:
+  - OpenAIKit
+
+SPEC REPOS:
+  trunk:
+    - OpenAIKit
+
+SPEC CHECKSUMS:
+  OpenAIKit: cd69fa5a5585e13ab416042cb98fd31897dcf3f8
+
+PODFILE CHECKSUM: fe79c3a8a4b05373b16d3da8afb2156f06f4eed9
+
+COCOAPODS: 1.11.3

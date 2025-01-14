@@ -40,8 +40,16 @@ build/
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 **/xcshareddata/WorkspaceSettings.xcsettings
-Pods/*
+**/Pods
 *.xcworkspace
+**/Assets.xcassets/*
+!**/Assets.xcassets/121-5-1-captured.imageset/
+!**/Assets.xcassets/Contents.json
+!**/Assets.xcassets/finger.imageset
+!**/Assets.xcassets/AppIcon.appiconset
+!**/Assets.xcassets/AccentColor.colorset
+!**/Assets.xcassets/121-5-1.imageset
+
 
 # End of https://www.toptal.com/developers/gitignore/api/swiftpm,xcode
 
