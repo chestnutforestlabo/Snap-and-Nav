@@ -39,4 +39,4 @@ python3 main.py --img path_to_your_image.png
 
 ## ToDos
 - [x] Map Analysis module code release
-- [ ] Navigation module code release
+- [x] Navigation module code release
